@@ -20,3 +20,28 @@ function getDate(){
 }
 
 setInterval(getDate, 1000)
+
+
+
+
+// const time = document.getElementById('time')
+
+// const second = document.querySelector('.second')
+// const minute = document.querySelector('.minute')
+// const hour = document.querySelector('.hour')
+
+// function getDate(){
+// const date = new Date()
+// const h = date.getHours()
+// const m = date.getMinutes()
+// const s = date.getSeconds()
+// const s_degrees = ((s/60)*360)+90;
+// const m_degrees = ((m/60)*360)+90;
+// const h_degrees = ((m/12)*360)+90;
+// hour.style.transform = `rotate(${h_degrees}deg)`
+// minute.style.transform = `rotate(${m_degrees}deg)`
+// second.style.transform = `rotate(${s_degrees}deg)`
+// time.textContent = h + ':' + m + ':' + s
+// }
+
+// setInterval(getDate, 1000)
